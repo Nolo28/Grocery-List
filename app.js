@@ -22,6 +22,7 @@ function addElements(value) {
   displayDiv.appendChild(p);
   let img = document.createElement("img");
   img.setAttribute("class", "delete-img");
+  img.setAttribute("alt", "trashcan icon");
   img.src = "images/delete.png";
   p.appendChild(img);
   if (doneWithSetup) {
@@ -72,7 +73,7 @@ function handleClick(e) {
     value1 = value;
   }
 
-  if(value1.length === 0){
+  if (value1.length === 0) {
     return inputForm.reset(); //checks if the user has inputted nothing if so reset the form
   }
   let currentStorage = JSON.parse(localStorage.getItem("Grocery List"));
