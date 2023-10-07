@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background: #012e40;
+  color: #f3f3f3;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.input-div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input-div button {
+  display: block;
+  margin: 30px auto;
+}
+
+.grocery-input {
+  margin-top: 20px;
+  background: #012e40;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-left: 10px;
+  color: #f3f3f3;
+  font-size: 18px;
+}
+
+.grocery-input::placeholder {
+  color: #f3f3f3;
+  font-size: 18px;
+}
+
+.grocery-input:focus {
+  outline: none;
+}
+
+.input-div button {
+  color: #f3f3f3;
+  border: none;
+}
+
+.grocery-list {
+  text-align: center;
+}
+
+.grocery-list h2 {
+  font-size: 28px;
+}
+
+.grocery-list p {
+  margin-top: 20px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.input-div button,
+.grocery-list p {
+  width: 150px;
+  height: 30px;
+  background: #044f6d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input-div button:hover,
+.grocery-list p:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.display-list {
+  margin: 20px auto;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+
+.display-list p {
+  font-size: 20px;
+  background: #012e40;
+  display: flex;
+  justify-content: space-around;
+}
+
+.delete-img {
+  max-width: 20px;
+  max-height: 20px;
+}

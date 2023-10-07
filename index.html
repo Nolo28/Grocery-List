@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="viewport" width="device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <header>
+      <h1>Add Grocery Items</h1>
+    </header>
+    <div class="container">
+      <div class="input-div">
+        <form method="POST" action="/" autocomplete="off">
+          <input
+            class="grocery-input"
+            type="text"
+            placeholder="Enter Your Item"
+            name="list-input"
+          />
+          <button type="submit">Submit Here</button>
+        </form>
+      </div>
+
+      <div class="grocery-list">
+        <h2>Grocery List Items</h2>
+        <div class="display-list">
+        </div>
+        <p class="clear-p">Clear List</p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
